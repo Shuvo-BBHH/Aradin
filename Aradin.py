@@ -217,7 +217,7 @@ def action():
     jalan ('\033[1;91m[+] TOTAL IDS NUMBER: '+xxx)
     jalan ('\033[1;92m[+] CODE YOU CHOOSE: '+c)
     jalan ("\033[1;93m[+] WAIT A WHILE START CRACKING...")
-    jalan ("\033[1;93m[+] NOT SHOW ANY ACCOUNT USE AIRPLANE MOD")
+    jalan ("\033[1;95m[+] NOT SHOW ANY ACCOUNT USE AIRPLANE MOD")
     jalan ("\033[1;94m[+] TO STOP CLONING PRESS CTRL+Z")
     print 50* '\033[1;97m-'
     def main(arg):
