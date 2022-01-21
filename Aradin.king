@@ -159,9 +159,9 @@ while (loop == 'true'):
 #=================#
 def lisensi():
     os.system('clear')
-def lisensi():
-    os.system('clear')
     login()
+####login#########
+def login():
     os.system('clear')
     print logo1
     print "\033[1;93m[1] START "
@@ -331,4 +331,4 @@ ____________________¶¶____________________
     login() 
           
 if __name__ == '__main__':
-    login()
+   login()
