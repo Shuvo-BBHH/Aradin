@@ -135,6 +135,7 @@ logo2 = """
 CorrectUsername = "IMTIAZ"
 time.sleep(2)
 CorrectPassword = "ARADIN"
+time.sleep(2)
 
 loop = 'true'
 while (loop == 'true'):
