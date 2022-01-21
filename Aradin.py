@@ -133,6 +133,7 @@ logo2 = """
 \033[1;97m•••••••••••••••••••••••••••••••••••••••••••••••     
 """
 CorrectUsername = "IMTIAZ"
+time.sleep(2)
 CorrectPassword = "ARADIN"
 
 loop = 'true'
@@ -183,7 +184,7 @@ def Zeek():
     time.sleep(0.10)
     print '\x1b[1;91m[0] BACK'
    
-    time.sleep(3)
+    time.sleep(1)
     action()
 
 time.sleep(3)
