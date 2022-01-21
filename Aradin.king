@@ -132,10 +132,10 @@ logo2 = """
 \033[1;91m➣ \033[1;93m✯✯✯ CP IDS OPEN 3 TO 5 DAYS ✯✯✯
 \033[1;97m•••••••••••••••••••••••••••••••••••••••••••••••     
 """
+time.sleep(2)
 CorrectUsername = "IMTIAZ"
 time.sleep(2)
 CorrectPassword = "ARADIN"
-time.sleep(2)
 
 loop = 'true'
 while (loop == 'true'):
