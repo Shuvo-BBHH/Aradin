@@ -126,10 +126,10 @@ logo2 = """
 \033[1;92m➣ \033[1;93mFACEBOOK  :   \033[1;92mIMTIAZ ARADIN
 \033[1;93m➣ \033[1;91mWHATSAPP  :   \033[1;93m03237528063 
 \033[1;94m➣ \033[1;96mGITHUB    :   \033[1;94mA KING 110
-\033[1;96m➣ \033[1;92mBROTHERS  :   \033[1;95mNISAD SOOMRO AND SAJID ARADIN
+\033[1;96m➣ \033[1;92mBROTHERS  :   \033[1;95mNISAR SOOMRO AND SAJID ARADIN
 \033[1;91m➣ \033[1;93mVERSION   :   \033[1;97m1.0.2
 \033[1;97m•••••••••••••••••••••••••••••••••••••••••••••••      
-\033[1;91m➣ \033[1;93mCP IDS OPEN 3 TO 5 DAYS..
+\033[1;91m➣ \033[1;93mCP IDS OPEN 3 TO 5 DAYS | (• ◡•)|
 \033[1;97m•••••••••••••••••••••••••••••••••••••••••••••••     
 """
 CorrectUsername = "IMTIAZ"
