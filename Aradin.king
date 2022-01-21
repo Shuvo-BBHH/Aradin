@@ -141,9 +141,9 @@ loop = 'true'
 while (loop == 'true'):
     username = raw_input("\033[1;91m➣ \x1b[1;93mTOOL USERNAME \x1b[1;97m»» \x1b[1;97m ")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;92m➣ \x1b[1;93mTOOL PASSWORD \x1b[1;97m»» \x1b[1;97m ")
+    	password = raw_input("\033[1;92m➣ \x1b[1;93mTOOL PASSWORD \x1b[1;97m»» \x1b[1;92m ")
         if (password == CorrectPassword):
-            print "LOGGED IN SUCCESSFULLY AS " + username #Dev:IMTIAZ ARADIN
+            print "LOGIN SUCCESSFULLY AS " + username #Dev:IMTIAZ ARADIN
 	    time.sleep(2)
             loop = 'false'
         else:
@@ -158,6 +158,27 @@ while (loop == 'true'):
 ##### LICENSE #####
 #=================#
 def lisensi():
+    os.system('clear')
+login()
+####login#########
+def login():
+    os.system('clear')
+    print logo1
+    print "\033[1;93m[1] START "
+    time.sleep(0.05)
+    
+    time.sleep(0.05)
+    print '\x1b[1;91m[0] EXIT'
+    pilih_login()
+
+def pilih_login():
+    peak = raw_input("\n\033[1;95mCHOOSE: \033[1;93m")
+    if peak =="":
+        print "\x1b[1;97mFill In Correctly"
+        pilih_login()
+    elif peak =="1":
+        Zeek()
+def Zeek():
     os.system('clear')
     print logo1
     print '\x1b[1;92m[1] START CLONING '
@@ -311,4 +332,4 @@ ____________________¶¶____________________
           
 if __name__ == '__main__':
 
-
+  login()
