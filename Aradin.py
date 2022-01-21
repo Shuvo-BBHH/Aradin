@@ -186,6 +186,7 @@ def Zeek():
     time.sleep(3)
     action()
 
+time.sleep(3)
 def action():
     peak = raw_input('\n\033[1;93m➣ \033[1;97mCHOOSE: ')
     if peak =='':
