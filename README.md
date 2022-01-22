@@ -20,7 +20,7 @@ git clone https://github.com/AKING110/Aradin
 
 cd Aradin
 
-python2 Aradin.py
+python2 Aradin.king
 
 
 
